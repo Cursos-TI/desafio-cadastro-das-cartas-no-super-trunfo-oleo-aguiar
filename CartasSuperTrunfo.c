@@ -27,6 +27,8 @@ int main() {
 
     // Primeira Carta
 
+    printf(" *** Carta 01: ***\n");
+
     printf("Digite o Estado: \n");
     scanf("%2s", Estado1);  // %2s para garantir que leia apenas 2 caracteres
 
@@ -47,29 +49,11 @@ int main() {
 
     printf("Digite quantos Pontos de Turísticos tem: \n");
     scanf(" %d", &Turismo1);
-
-      // Saída de dados
-
-      printf(" *** Carta 01: ***\n");
-      printf("Estado: %s\n", Estado1);
-      printf("Código: %s\n", Codigo1);
-      printf("Nome da Cidade: %s\n", Cidade1);
-      printf("População: %d\n", Populacao1);
-      printf("Área: %.2f km²\n", Area1);
-      printf("PIB: %.2f Bilhões de reais\n", PIB1);
-      printf("Número de Pontos Turísticos %d\n", Turismo1);
-      Densidade1 = (Populacao1 + Area1) / 2;
-      printf("Densidade Populacional: %.2f hab/km²\n", Densidade1);
-      PIBPERCAPITA1 = (PIB1 + Populacao1) / 2;
-      printf("PIB PER CAPITA: R$%.2f Reais\n", PIBPERCAPITA1);
-      Densidade1 = (1 / Densidade1); //1 dividido pela Densidade
-      SUPERPODER1 = (Populacao1 + Area1 + PIB1 + Densidade1 + Turismo1); //Soma de quase todos os requisitos
-      printf("SUPER PODER: %f \n", SUPERPODER1);
-
-
   
       // Segunda Carta
     
+    printf(" *** Carta 02: ***\n");
+
     printf("Digite o Estado: \n");
     scanf("%2s", Estado2);  // %2s para garantir que leia apenas 2 caracteres
 
@@ -92,6 +76,22 @@ int main() {
     scanf(" %d", &Turismo2);
 
       // Saída de dados
+
+      printf(" *** Carta 01: ***\n");
+      printf("Estado: %s\n", Estado1);
+      printf("Código: %s\n", Codigo1);
+      printf("Nome da Cidade: %s\n", Cidade1);
+      printf("População: %d\n", Populacao1);
+      printf("Área: %.2f km²\n", Area1);
+      printf("PIB: %.2f Bilhões de reais\n", PIB1);
+      printf("Número de Pontos Turísticos %d\n", Turismo1);
+      Densidade1 = (Populacao1 + Area1) / 2;
+      printf("Densidade Populacional: %.2f hab/km²\n", Densidade1);
+      PIBPERCAPITA1 = (PIB1 + Populacao1) / 2;
+      printf("PIB PER CAPITA: R$%.2f Reais\n", PIBPERCAPITA1);
+      Densidade1 = (1 / Densidade1); //1 dividido pela Densidade
+      SUPERPODER1 = (Populacao1 + Area1 + PIB1 + Densidade1 + Turismo1); //Soma de quase todos os requisitos
+      printf("SUPER PODER: %f \n", SUPERPODER1);
 
       printf(" *** Carta 02: ***\n");
       printf("Carta 02: \n");
